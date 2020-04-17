@@ -1,0 +1,208 @@
+/*  TAB Opsto */
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+/*opsto-sekcii*/
+.color-sect{
+  color:#fff;
+  background-color: #ff4c68;
+}
+.white-sect{
+  background-color: #fff;
+}
+
+.light-color-sect{
+  background-color: #ef8172;
+  color: #fff;
+}
+/*   Pocetok - navbar   */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.logo{
+  width:3rem;
+  margin-right: 0.8rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding:0.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.zname{
+  width:2.8rem;
+  padding:0.3rem;
+  border-radius: 0.2rem;
+}
+.zname:hover{
+  background-color: #ff85a8;
+}
+.ajdi-title {
+  position: relative;
+  text-align: left;
+}
+
+/*daunloud dugmina*/
+.downl-dugme {
+  margin: 5% 3% 5% 0;
+}
+
+/*title imaj*/
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/*featuri */
+.ajdi-features {
+  padding: 5% 10%;
+  position: relative;
+  /* z-index:1; - ne mora da go ima*/
+}
+
+.ikona {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.ikona:hover {
+  color: #ff4c68;
+}
+
+.feat {
+  padding: 0 3%;
+}
+
+.feat-txt {
+  color: #8f8f8f;
+}
+
+.feat-head {
+  font-size: 1.5rem;
+}
+
+/* testamenti */
+
+.carousel-item {
+  padding: 5% 15%;
+  /*overflow: visible;*/
+  /* da ne igra*/
+  /*height: 30rem;*/
+  /* da ne igra*/
+}
+
+.testament-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+/*Press*/
+.ajdi-press {
+  padding: 3%;
+}
+
+.press-img {
+  height: 6em;
+  margin: 20px 20px 50px 20px;
+}
+
+/*cenaaaaa*/
+.ajdi-pricing {
+  padding: 100px;
+}
+
+.cena {
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+.paket-naziv {
+  font-size: 1.5rem;
+}
+
+.prajs {
+  padding: 3% 2%;
+}
+
+.pric-head {
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+/* kraen del */
+.ajdi-cta {
+  padding: 6% 15% 2%;
+}
+
+.ajdi-footer {
+  padding: 3% 15%;
+}
+
+.adresi{
+  line-height: 1;
+  padding:1rem;
+  margin:1rem;
+}
+.cta-head {
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+.cont-icon{
+  color:#777;
+  padding:0 0.7rem;
+}
+.ik-fut {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.kopirajd {
+  padding: 2%;
+  color: #8f8f8f;
+}
+
+/* Odgovornost */
+@media (max-width:1000px) {
+  .ajdi-title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
